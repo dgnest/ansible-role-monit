@@ -1,0 +1,12 @@
+---
+# vars file for dgnest.monit (Ubuntu specific)
+
+_monit_package_dependencies:
+  - build-essential
+
+_monit_dependencies:
+  - name: build-essential
+    version: 1.0.0
+
+_monit_packages:
+  - packages
